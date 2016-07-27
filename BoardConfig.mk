@@ -158,6 +158,9 @@ TARGET_RIL_VARIANT := caf
 # RPC
 TARGET_NO_RPC := true
 
+# for multirom
+BLOCK_BASED_OTA := false
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
