@@ -96,9 +96,6 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8974 \
-    libboringssl-compat \
-    libstlport \
-    libshim_camera \
     Snap
 
 # Charger
@@ -194,6 +191,9 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libxml2 \
     libprotobuf-cpp-full
+
+PRODUCT_PACKAGES += \
+    libshims_sensors
 
 # Sensors
 PRODUCT_COPY_FILES += \
